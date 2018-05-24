@@ -1,0 +1,20 @@
+initial begin Output=0; Overflow=0;end
+
+always @(negedge Clk,posedge Clk) begin
+    if (Reset==1) begin
+        Overflow<=0;
+        Output<=0;
+    end
+    else if(En==1) begin
+        Overflow<= (Output==3'b100)?1:Overflow;
+        Output<= (Output==3'b000)?3'b001:
+                    (Output==3'b001)?3'b011:
+                    (Output==3'b011)?3'b010:
+                    (Output==3'b010)?3'b110:
+                    (Output==3'b110)?3'b111:
+                    (Output==3'b111)?3'b101:
+                    (Output==3'b101)?3'b100:
+                    3'b000;
+    end
+end
+endmodule

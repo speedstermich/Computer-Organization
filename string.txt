@@ -1,0 +1,85 @@
+module string(
+	input wire clk,
+	input wire clr,
+	input wire [7:0]in,
+	output reg out
+    );
+initial begin
+out = 0;
+end
+
+integer state = 0;
+
+	
+	always @(posedge clk ,posedge clr)begin //我修改了这个地方，添加了一个posedge clr
+		if(clr == 1)		begin
+		state <= 0;
+		out <=(in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001)?1:out;
+		end
+		else
+		state <= 1;
+		out <= 1;
+		case (state)
+		0:
+			begin
+			state <= (in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001)?1:4;//begin
+					//state <=	1;
+			out <= (in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001);
+				//end
+			//state<= (in == 8'b00101011 ||in == 8'b00101010)?0//begin
+					//state <=	0;
+					//out <= 0;
+				//end
+			end
+		1:
+			begin
+			state <= (in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001)?4:2;//begin
+					//state <=	0;
+					out <= 0;
+			//	end
+			/*if(in == 8'b00101011 ||in == 8'b00101010)begin
+					state <=	2;
+					out <= 0;
+				end*/
+			end
+		2: 
+			begin
+			state <=(in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001)?3:4;//begin
+					//state <=	1;
+					out <= (in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001);
+				//end
+			/*if(in == 8'b00101011 ||in == 8'b00101010)begin
+					state <=	0;
+					out <= 0;
+				end*/
+			end
+		3:
+			begin
+			state <=(in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001)?4:2;//begin
+					//state <=	0;
+					out <= 0;
+				//end
+			/*if(in == 8'b00101011 ||in == 8'b00101010)begin
+					state <=	2;
+					out <= 0;
+				end*/
+			end
+		4:
+			begin
+			//state <=(in == 8'b00110000 ||in == 8'b00110001 ||in == 8'b00110010||in == 8'b00110011||in == 8'b00110100||in == 8'b00110101||in == 8'b00110110||in == 8'b00110111||in == 8'b00111000||in == 8'b00111001)?0:2;//begin
+					//state <=	0;
+					out <= 0;
+				//end
+			/*if(in == 8'b00101011 ||in == 8'b00101010)begin
+					state <=	2;
+					out <= 0;
+				end*/
+			end
+		default : 
+			begin
+				state <= 0;
+				out <= 0;
+			end
+		endcase
+end
+endmodule 
