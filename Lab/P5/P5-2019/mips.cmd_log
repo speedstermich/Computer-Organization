@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P5/P5-2019/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P5/P5-2019/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-2 mips.ngc mips.ngd  
+map -intstyle ise -p xa6slx4-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 

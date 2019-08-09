@@ -1,0 +1,400 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xa6slx4-2-csg225
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/ext.v" into library work
+Parsing module <ext>.
+Parsing module <extbyte>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/pipelineregs.v" into library work
+Parsing module <preg1>.
+Parsing module <preg5>.
+Parsing module <preg32>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/IM.v" into library work
+Parsing module <Instr_Memory>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v" into library work
+Parsing module <DM_8bit>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/Controller.v" into library work
+Parsing module <Controller>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" into library work
+Parsing module <conflict>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/compare.v" into library work
+Parsing module <compare>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <PC>.
+
+Elaborating module <Instr_Memory>.
+Reading initialization file \":\Users\Michael Octavianus K\Desktop\P5\/code.txt\".
+WARNING:HDLCompiler:1670 - "C:/Users/Michael Octavianus K/Desktop/P5/IM.v" Line 10: Signal <rom> in initial block is partially initialized.
+
+Elaborating module <preg32>.
+
+Elaborating module <Controller>.
+WARNING:HDLCompiler:1127 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 94: Assignment to RegSrcD ignored, since the identifier is never used
+
+Elaborating module <GRF>.
+"C:/Users/Michael Octavianus K/Desktop/P5/GRF.v" Line 29. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <ext>.
+
+Elaborating module <compare>.
+
+Elaborating module <preg5>.
+
+Elaborating module <preg1>.
+WARNING:HDLCompiler:1127 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 146: Assignment to MemWriteE ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 148: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:1127 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 191: Assignment to JumpM ignored, since the identifier is never used
+
+Elaborating module <DM_8bit>.
+"C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v" Line 28. $display  32'b................................ 32'sb000000000000000000............00 32'b................................
+"C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v" Line 32. $display  32'b................................ 32'sb000000000000000000............00 32'b................................
+"C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v" Line 36. $display  32'b................................ 32'sb000000000000000000............00 32'b................................
+
+Elaborating module <extbyte>.
+WARNING:HDLCompiler:1127 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 209: Assignment to JumpW ignored, since the identifier is never used
+
+Elaborating module <conflict>.
+WARNING:HDLCompiler:413 - "C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 51: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 54: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 58: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 60: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 86. All outputs of instance <pc> of block <PC> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 87. All outputs of instance <im> of block <Instr_Memory> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 89. All outputs of instance <InstrFD> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 90. All outputs of instance <PC4FD> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 91. All outputs of instance <IAddrFD> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 94. All outputs of instance <ctrlD> of block <Controller> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 111. All outputs of instance <rf> of block <GRF> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 113. All outputs of instance <immext> of block <ext> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 122. All outputs of instance <cmp> of block <compare> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 134. All outputs of instance <InstrDE> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 135. All outputs of instance <PC4DE> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 136. All outputs of instance <IAddrDE> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 137. All outputs of instance <RD1DE> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 138. All outputs of instance <RD2DE> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 139. All outputs of instance <rsDE> of block <preg5> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 140. All outputs of instance <rtDE> of block <preg5> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 141. All outputs of instance <rdDE> of block <preg5> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 142. All outputs of instance <immDE> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 143. All outputs of instance <trueDE> of block <preg1> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 146. All outputs of instance <ctrlE> of block <Controller> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 161. All outputs of instance <a> of block <ALU> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 179. All outputs of instance <InstrEM> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 180. All outputs of instance <ALUOutEM> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 181. All outputs of instance <MemWDataEM> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 182. All outputs of instance <PC4EM> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 183. All outputs of instance <IAddrEM> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 186. All outputs of instance <WriteRegEM> of block <preg5> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 187. All outputs of instance <rtEM> of block <preg5> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 188. All outputs of instance <trueEM> of block <preg1> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191. All outputs of instance <ctrlM> of block <Controller> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 192. All outputs of instance <dm> of block <DM_8bit> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 200. All outputs of instance <InstrMW> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 201. All outputs of instance <ALUOutMW> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 202. All outputs of instance <PC4MW> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 203. All outputs of instance <IAddrMW> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 204. All outputs of instance <MemRDataMW> of block <preg32> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 207. All outputs of instance <WriteRegMW> of block <preg5> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 208. All outputs of instance <trueMW> of block <preg1> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209. All outputs of instance <ctrlW> of block <Controller> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 214. All outputs of instance <hazard> of block <conflict> are unconnected in block <mips>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mips>.
+    Related source file is "C:/Users/Michael Octavianus K/Desktop/P5/mips.v".
+        delay_slot = 1'b1
+        condition = 1'b1
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 94: Output port <RegSrc> of the instance <ctrlD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 94: Output port <MemWrite> of the instance <ctrlD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 94: Output port <RegWrite> of the instance <ctrlD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 94: Output port <loen> of the instance <ctrlD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 94: Output port <hien> of the instance <ctrlD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 146: Output port <ExtOp> of the instance <ctrlE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 146: Output port <MemWrite> of the instance <ctrlE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 146: Output port <loen> of the instance <ctrlE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 146: Output port <hien> of the instance <ctrlE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <ALUSrc> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <RegDst> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <ExtOp> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <ALUCtrl> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <Jump> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <loen> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 191: Output port <hien> of the instance <ctrlM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <ALUSrc> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <RegDst> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <ExtOp> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <ALUCtrl> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <Jump> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <MemWrite> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <loen> of the instance <ctrlW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" line 209: Output port <hien> of the instance <ctrlW> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <mips> synthesized.
+
+Synthesizing Unit <ext>.
+    Related source file is "C:/Users/Michael Octavianus K/Desktop/P5/ext.v".
+    Summary:
+	no macro.
+Unit <ext> synthesized.
+
+Synthesizing Unit <extbyte>.
+    Related source file is "C:/Users/Michael Octavianus K/Desktop/P5/ext.v".
+    Summary:
+	no macro.
+Unit <extbyte> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mips> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mips.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx4csg225-2 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    132     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 1153.00 secs
+Total CPU time to Xst completion: 1153.53 secs
+ 
+--> 
+
+Total memory usage is 1775256 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   50 (   0 filtered)
+Number of infos    :   24 (   0 filtered)
+

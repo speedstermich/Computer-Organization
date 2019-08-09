@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"C:/Users/Michael Octavianus K/Desktop/P4-new/IM.v" Line 10: Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">36</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pcount</arg>&gt; of block &lt;<arg fmt="%s" index="4">PC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">im</arg>&gt; of block &lt;<arg fmt="%s" index="4">Instr_Memory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">38</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrl</arg>&gt; of block &lt;<arg fmt="%s" index="4">Controller</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">39</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rf</arg>&gt; of block &lt;<arg fmt="%s" index="4">GRF</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">40</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">a</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">41</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">extender</arg>&gt; of block &lt;<arg fmt="%s" index="4">ext</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P4-new/mips.v</arg>&quot; line <arg fmt="%d" index="2">43</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">dm</arg>&gt; of block &lt;<arg fmt="%s" index="4">DM_8bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>
+

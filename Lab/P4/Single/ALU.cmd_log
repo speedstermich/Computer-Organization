@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/Single/ALU.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/Single/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 ALU.ngc ALU.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/Single/ALU.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/Single/ALU.syr" 

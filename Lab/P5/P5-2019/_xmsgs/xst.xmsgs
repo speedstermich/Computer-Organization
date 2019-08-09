@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/IM.v" Line 10: Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 94: Assignment to <arg fmt="%s" index="1">RegSrcD</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 146: Assignment to <arg fmt="%s" index="1">MemWriteE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 148: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 191: Assignment to <arg fmt="%s" index="1">JumpM</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/mips.v" Line 209: Assignment to <arg fmt="%s" index="1">JumpW</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 51: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 54: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" Line 60: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">86</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pc</arg>&gt; of block &lt;<arg fmt="%s" index="4">PC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">87</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">im</arg>&gt; of block &lt;<arg fmt="%s" index="4">Instr_Memory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">89</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">InstrFD</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">90</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC4FD</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">91</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IAddrFD</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">94</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrlD</arg>&gt; of block &lt;<arg fmt="%s" index="4">Controller</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">111</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rf</arg>&gt; of block &lt;<arg fmt="%s" index="4">GRF</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">113</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">immext</arg>&gt; of block &lt;<arg fmt="%s" index="4">ext</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">122</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">cmp</arg>&gt; of block &lt;<arg fmt="%s" index="4">compare</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">134</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">InstrDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">135</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC4DE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">136</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IAddrDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">137</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RD1DE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">138</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RD2DE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">139</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rsDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">140</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rtDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">141</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rdDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">142</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">immDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">143</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">trueDE</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">146</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrlE</arg>&gt; of block &lt;<arg fmt="%s" index="4">Controller</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">161</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">a</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">179</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">InstrEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">180</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALUOutEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">181</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MemWDataEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">182</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC4EM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">183</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IAddrEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">186</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">WriteRegEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">187</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rtEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">188</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">trueEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">191</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrlM</arg>&gt; of block &lt;<arg fmt="%s" index="4">Controller</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">192</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">dm</arg>&gt; of block &lt;<arg fmt="%s" index="4">DM_8bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">200</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">InstrMW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">201</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALUOutMW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">202</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC4MW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">203</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IAddrMW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">204</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MemRDataMW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">207</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">WriteRegMW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">208</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">trueMW</arg>&gt; of block &lt;<arg fmt="%s" index="4">preg1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">209</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrlW</arg>&gt; of block &lt;<arg fmt="%s" index="4">Controller</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%d" index="2">214</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">hazard</arg>&gt; of block &lt;<arg fmt="%s" index="4">conflict</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">RegSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">loen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">hien</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">loen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">hien</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">ALUSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">ALUCtrl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">Jump</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">loen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">hien</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">ALUSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">ALUCtrl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">Jump</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">loen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Michael Octavianus K/Desktop/P5/mips.v</arg>&quot; line <arg fmt="%s" index="2">209</arg>: Output port &lt;<arg fmt="%s" index="3">hien</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrlW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

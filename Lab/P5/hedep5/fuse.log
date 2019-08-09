@@ -1,0 +1,57 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/yangc/Desktop/hedep5/mips_tb_isim_beh.exe -prj C:/Users/yangc/Desktop/hedep5/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/yangc/Desktop/hedep5/mips.v" into library work
+Analyzing Verilog file "C:/Users/yangc/Desktop/hedep5/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/yangc/Desktop/hedep5/mips.v" Line 27: Port IR_Dout is not connected to this instance
+WARNING:HDLCompiler:1016 - "d_component.v" Line 56: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "d_component.v" Line 64: Port d3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "d_component.v" Line 66: Port d3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "d_component.v" Line 67: Port d3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "e_component.v" Line 41: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "e_component.v" Line 45: Port d3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "e_component.v" Line 46: Port d3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "m_component.v" Line 36: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "w_component.v" Line 32: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "hazard_unit.v" Line 93: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "hazard_unit.v" Line 94: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "hazard_unit.v" Line 95: Port RegDst is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 179856 KB
+Fuse CPU Usage: 358 ms
+Compiling module PCflopr
+Compiling module im
+Compiling module add
+Compiling module if_component
+Compiling module fd_register
+Compiling module controller
+Compiling module regfile
+Compiling module comparator
+Compiling module extender
+Compiling module mux2_32
+Compiling module mux4_5
+Compiling module mux4_32
+Compiling module d_component
+Compiling module de_register
+Compiling module alu
+Compiling module e_component
+Compiling module em_register
+Compiling module dm
+Compiling module m_component
+Compiling module mw_register
+Compiling module w_component
+Compiling module hazard_unit
+Compiling module main
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable C:/Users/yangc/Desktop/hedep5/mips_tb_isim_beh.exe
+Fuse Memory Usage: 188404 KB
+Fuse CPU Usage: 593 ms

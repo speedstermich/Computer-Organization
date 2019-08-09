@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I mips.ngc mips.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I mips.ngc mips.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4l-tqg144-1L mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx4l-tqg144-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx4l-tqg144-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P4/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 

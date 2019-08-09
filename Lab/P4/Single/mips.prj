@@ -1,0 +1,8 @@
+verilog work "ext.v"
+verilog work "PC.v"
+verilog work "IM.v"
+verilog work "GRF.v"
+verilog work "DM_8bit.v"
+verilog work "Controller.v"
+verilog work "ALU.v"
+verilog work "mips.v"

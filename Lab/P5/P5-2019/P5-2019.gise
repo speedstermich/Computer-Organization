@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="P5-2019.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1564551442" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1564551442">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551442" xil_pn:in_ck="182517533596416004" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1564551442">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/ALU.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/Controller.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/GRF.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/IM.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/PC.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/compare.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/conflict.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/ext.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/mips.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/pipelineregs.v"/>
+      <outfile xil_pn:name="testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551446" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1854889385420917559" xil_pn:start_ts="1564551446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551446" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5558365987384360765" xil_pn:start_ts="1564551446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551446" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8093663070090570904" xil_pn:start_ts="1564551446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551446" xil_pn:in_ck="182517533596416004" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1564551446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/ALU.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/Controller.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/GRF.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/IM.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/PC.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/compare.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/conflict.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/ext.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/mips.v"/>
+      <outfile xil_pn:name="C:/Users/Michael Octavianus K/Desktop/P5/pipelineregs.v"/>
+      <outfile xil_pn:name="testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551450" xil_pn:in_ck="182517533596416004" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4687116895570122126" xil_pn:start_ts="1564551446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="testbench_beh.prj"/>
+      <outfile xil_pn:name="testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1564551450" xil_pn:in_ck="7130759491340027311" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6135673076640466575" xil_pn:start_ts="1564551450">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="testbench_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>
