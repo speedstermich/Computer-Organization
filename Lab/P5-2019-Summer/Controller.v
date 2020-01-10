@@ -71,6 +71,7 @@ output hien
 				//16:
 				//28:temp='b00_0_01_00_00_000_0_0000_11;//madd(u) attention:MUL Instr[1] stall()
 				24:temp='b11_1_10_00_10_010_0_0010_00;//blezals
+				28:temp='b00_1_01_00_00_000_0_1001_00;//clz
 				32:temp='b00_1_00_01_00_001_0_0010_00;//lb
 				33:temp='b00_1_00_01_00_001_0_0010_00;//lh
 				35:temp='b00_1_00_01_00_001_0_0010_00;//lw
@@ -79,6 +80,8 @@ output hien
 				40:temp='b00_0_00_01_01_000_0_0010_00;//sb
 				41:temp='b00_0_00_01_01_000_0_0010_00;//sh
 				43:temp='b00_0_00_01_01_000_0_0010_00;//sw
+				63:temp='b00_1_01_00_10_010_1_0101_00;//bgezalr
+				//{[1:0]ext,RegWrite,[1:0]RegDst,[1:0]ALUSrc,Branch,MemWrite,[2:0]RegSrc,Jump,[3:0]ALUCtrl}
 		  endcase
 	 end
 	 assign {ExtOp,RegWrite,RegDst,ALUSrc,Branch,MemWrite,RegSrc,Jump,ALUCtrl,loen,hien}=temp;

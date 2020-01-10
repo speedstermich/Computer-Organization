@@ -1,0 +1,28 @@
+Command line:
+   conflict_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52426
+
+Thu Dec 26 12:32:58 2019
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 1167.07 Meg
+
+ Total Signals          : 39
+ Total Nets             : 80
+ Total Signal Drivers   : 14
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 160
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 1167.07 Meg
+
+Thu Dec 26 12:33:16 2019
+

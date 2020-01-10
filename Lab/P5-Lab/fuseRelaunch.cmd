@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/GitHub/Computer-Organization/Lab/P5-Lab/testbench_isim_beh.exe" -prj "H:/GitHub/Computer-Organization/Lab/P5-Lab/testbench_beh.prj" "testbench" "work.glbl" 

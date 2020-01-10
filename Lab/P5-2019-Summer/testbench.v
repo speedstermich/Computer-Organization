@@ -27,15 +27,15 @@ module testbench;
 	// Inputs
 	reg clk;
 	reg reset;
-
+	
+	mips cpu(clk,reset);
 	initial begin
 		// Initialize Inputs
 		clk = 0;
 		reset = 0;
-	end
+		//reset = 1'b1;
+		end	
+	always #5 clk = ~clk;
 	
-	always #10 clk = ~clk;
-	mips cpu(clk,reset);
-      
 endmodule
 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/Love/mips.xst" -ofn "H:/GitHub/Computer-Organization/Lab/Love/mips.syr" 

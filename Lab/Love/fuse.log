@@ -1,0 +1,44 @@
+Running: H:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o H:/GitHub/Computer-Organization/Lab/Love/testbench_isim_beh.exe -prj H:/GitHub/Computer-Organization/Lab/Love/testbench_beh.prj work.testbench work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/ext.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/pipelineregs.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/PC.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/IM.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/GRF.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/DM_8bit.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/Controller.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/conflict.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/compare.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/mips.v" into library work
+Analyzing Verilog file "C:/Users/Michael Octavianus K/Desktop/P5/testbench.v" into library work
+Analyzing Verilog file "H:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160616 KB
+Fuse CPU Usage: 233 ms
+Compiling module PC
+Compiling module Instr_Memory
+Compiling module preg32
+Compiling module Controller
+Compiling module GRF
+Compiling module ext
+Compiling module compare
+Compiling module preg5
+Compiling module preg1
+Compiling module ALU
+Compiling module extbyte
+Compiling module DM_8bit
+Compiling module conflict
+Compiling module mips
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable H:/GitHub/Computer-Organization/Lab/Love/testbench_isim_beh.exe
+Fuse Memory Usage: 167316 KB
+Fuse CPU Usage: 327 ms

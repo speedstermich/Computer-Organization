@@ -116,11 +116,12 @@ input reset
 	 wire true;
 	 assign PCSrc=BranchD&&true;
 	 wire [31:0]jumpto;
-	 assign cmp1=ForwardrsD==3? PC4E: ForwardrsD==2? RegWDataM: ForwardrsD==1? RegWDataW: RegRData1D;
-	 assign cmp2=ForwardrtD==3? PC4E: ForwardrtD==2? RegWDataM: ForwardrtD==1? RegWDataW: RegRData2D;
+	 assign cmp1=ForwardrsD==3? PC4E: ForwardrsD==2? RegWDataM: ForwardrsD==1? RegWDataW: RegRData1D;	//rs
+	 assign cmp2=ForwardrtD==3? PC4E: ForwardrtD==2? RegWDataM: ForwardrtD==1? RegWDataW: RegRData2D;	//rt
 	 
+	 //npc
 	 compare cmp(cmp1,cmp2,ALUCtrlD[2:0],true);
-	 assign jumpto=ALUSrcD[0]?{IAddrF[31:28],InstrD[25:0],2'b00}:cmp1;
+	 assign jumpto=ALUSrcD[0]?{IAddrF[31:28],InstrD[25:0],2'b00}:InstrD[31:26]==6'b111111 && InstrD[10:0]== 0? /*bgezalrcmp2*/cmp2:cmp1;
 	 assign nextPC=JumpD ? jumpto : PCSrc? PC4D+ImmD :IAddrF+4;
 	 
 	 wire [31:0]RegRData1E;

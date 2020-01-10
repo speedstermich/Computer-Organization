@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P5-Lab/testbench.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P5-Lab/testbench.syr" 
+xst -intstyle ise -ifn "H:/GitHub/Computer-Organization/Lab/P5-Lab/testbench.xst" -ofn "H:/GitHub/Computer-Organization/Lab/P5-Lab/testbench.syr" 
